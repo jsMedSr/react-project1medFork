@@ -1,6 +1,6 @@
 
 import './App.css';
-import { Header,Container,Footer } from './components/index';
+import { Header,Container,Footer, Hero } from './components/index';
 
 
 
@@ -8,7 +8,9 @@ function App() {
   return (
     <>
     <Header/>
-    <Container/>
+    <Container> 
+      <Hero/>
+    </Container>
     <Footer/>
     
     </>
