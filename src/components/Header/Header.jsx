@@ -19,20 +19,12 @@ function Header() {
           <NavItem>
           <a className="nav-link " aria-current="page" href="#">Home</a>
           </NavItem>
+
           <NavItem>
           <a className="nav-link " aria-current="page" href="#">Browse</a>
           </NavItem>
-          <NavItem>
-          <a className="nav-link " aria-current="page" href="#">Details</a>
-          
-          </NavItem>
-          <NavItem>
-          <a className="nav-link " href="#">Profile</a>
-          </NavItem>
-        <NavItemDropDown>
-        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
+          <NavItemDropDown>
+        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Details</a>
           <ul className="dropdown-menu">
             <li><a className="dropdown-item" href="#">Action</a></li>
             <li><a className="dropdown-item" href="#">Another action</a></li>
@@ -41,6 +33,15 @@ function Header() {
           </ul>
 
         </NavItemDropDown>
+
+          <NavItem>
+          <a className="nav-link " aria-current="page" href="#">streams</a>
+          </NavItem>
+
+          <NavItem>
+          <a className="nav-link " href="#">Profile</a>
+          </NavItem>
+        
        
       </ul>
       <form className="d-flex" role="search">
