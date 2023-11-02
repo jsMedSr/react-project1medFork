@@ -6,7 +6,7 @@ import NavItem , {NavItemDropDown} from '../NavItem/NavItem'
 function Header() {
   return (
     <>
-    <nav className="navbar navbar-expand-md  bg-dark navbar-dark text-white">
+    <nav className="navbar navbar-expand-md  navbar-dark text-white cyborg-navbar">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">
       <img src={logo} alt=""  />
