@@ -2,4 +2,5 @@
     background-color: var(--color-dark);
     padding: var(--padding-primary);
     border-radius: var(--border-radius-primary);
+    color: var(--color-light);
 }
